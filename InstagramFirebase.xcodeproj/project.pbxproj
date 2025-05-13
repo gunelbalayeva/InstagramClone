@@ -9,21 +9,47 @@
 /* Begin PBXBuildFile section */
 		CEE4DA552DCCEEFD0082AF68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE4DA542DCCEEFD0082AF68 /* AppDelegate.swift */; };
 		CEE4DA572DCCEEFD0082AF68 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE4DA562DCCEEFD0082AF68 /* SceneDelegate.swift */; };
-		CEE4DA592DCCEEFD0082AF68 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE4DA582DCCEEFD0082AF68 /* ViewController.swift */; };
-		CEE4DA5C2DCCEEFD0082AF68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEE4DA5A2DCCEEFD0082AF68 /* Main.storyboard */; };
+		CEE4DA592DCCEEFD0082AF68 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE4DA582DCCEEFD0082AF68 /* LoginViewController.swift */; };
 		CEE4DA5E2DCCEF000082AF68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEE4DA5D2DCCEF000082AF68 /* Assets.xcassets */; };
 		CEE4DA612DCCEF000082AF68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEE4DA5F2DCCEF000082AF68 /* LaunchScreen.storyboard */; };
+		CEE4DA692DCCF0410082AF68 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CEE4DA682DCCF0410082AF68 /* GoogleService-Info.plist */; };
+		CEE4DA6C2DCCF11A0082AF68 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = CEE4DA6B2DCCF11A0082AF68 /* FirebaseAnalytics */; };
+		CEE4DA6E2DCCF11A0082AF68 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = CEE4DA6D2DCCF11A0082AF68 /* FirebaseAuth */; };
+		CEE4DA702DCCF11A0082AF68 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = CEE4DA6F2DCCF11A0082AF68 /* FirebaseFirestore */; };
+		CEE4DA722DCCF11A0082AF68 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = CEE4DA712DCCF11A0082AF68 /* FirebaseStorage */; };
+		CEE4DA742DCCF11A0082AF68 /* FirebaseVertexAI-Preview in Frameworks */ = {isa = PBXBuildFile; productRef = CEE4DA732DCCF11A0082AF68 /* FirebaseVertexAI-Preview */; };
+		CEE4DAAE2DCE225E0082AF68 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = CEE4DAAD2DCE225E0082AF68 /* SnapKit */; };
+		CEE4DAB02DCE225E0082AF68 /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = CEE4DAAF2DCE225E0082AF68 /* SnapKit-Dynamic */; };
+		CEE4DAB32DCE24220082AF68 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE4DAB22DCE24220082AF68 /* RegisterViewController.swift */; };
+		CEE4DAB52DCE26770082AF68 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE4DAB42DCE26770082AF68 /* FeedViewController.swift */; };
+		CEE4DAB72DCE26A40082AF68 /* UploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE4DAB62DCE26A40082AF68 /* UploadViewController.swift */; };
+		CEE4DAB92DCE26D30082AF68 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE4DAB82DCE26D20082AF68 /* SettingsViewController.swift */; };
+		CEE4DABD2DD092960082AF68 /* ReelPostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE4DABC2DD092960082AF68 /* ReelPostCell.swift */; };
+		CEE4DAC02DD09F6B0082AF68 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = CEE4DABF2DD09F6B0082AF68 /* SDWebImage */; };
+		CEE4DAC22DD09F6B0082AF68 /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = CEE4DAC12DD09F6B0082AF68 /* SDWebImageMapKit */; };
+		CEE4DAC52DD0CA1C0082AF68 /* Methods+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE4DAC42DD0CA1C0082AF68 /* Methods+ext.swift */; };
+		CEE4DAC82DD0CE560082AF68 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE4DAC72DD0CE560082AF68 /* Post.swift */; };
+		CEE4DACB2DD28E100082AF68 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE4DACA2DD28E100082AF68 /* MainTabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE42393B2DD4B58200C6B228 /* .gitignore.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = .gitignore.md; sourceTree = "<group>"; };
 		CEE4DA512DCCEEFD0082AF68 /* InstagramFirebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstagramFirebase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEE4DA542DCCEEFD0082AF68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEE4DA562DCCEEFD0082AF68 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CEE4DA582DCCEEFD0082AF68 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CEE4DA5B2DCCEEFD0082AF68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEE4DA582DCCEEFD0082AF68 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		CEE4DA5D2DCCEF000082AF68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEE4DA602DCCEF000082AF68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEE4DA622DCCEF000082AF68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEE4DA682DCCF0410082AF68 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CEE4DAB22DCE24220082AF68 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		CEE4DAB42DCE26770082AF68 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		CEE4DAB62DCE26A40082AF68 /* UploadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadViewController.swift; sourceTree = "<group>"; };
+		CEE4DAB82DCE26D20082AF68 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		CEE4DABC2DD092960082AF68 /* ReelPostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReelPostCell.swift; sourceTree = "<group>"; };
+		CEE4DAC42DD0CA1C0082AF68 /* Methods+ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Methods+ext.swift"; sourceTree = "<group>"; };
+		CEE4DAC72DD0CE560082AF68 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		CEE4DACA2DD28E100082AF68 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +57,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEE4DA742DCCF11A0082AF68 /* FirebaseVertexAI-Preview in Frameworks */,
+				CEE4DAC22DD09F6B0082AF68 /* SDWebImageMapKit in Frameworks */,
+				CEE4DA6C2DCCF11A0082AF68 /* FirebaseAnalytics in Frameworks */,
+				CEE4DAC02DD09F6B0082AF68 /* SDWebImage in Frameworks */,
+				CEE4DA722DCCF11A0082AF68 /* FirebaseStorage in Frameworks */,
+				CEE4DAAE2DCE225E0082AF68 /* SnapKit in Frameworks */,
+				CEE4DA6E2DCCF11A0082AF68 /* FirebaseAuth in Frameworks */,
+				CEE4DAB02DCE225E0082AF68 /* SnapKit-Dynamic in Frameworks */,
+				CEE4DA702DCCF11A0082AF68 /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +75,7 @@
 		CEE4DA482DCCEEFD0082AF68 = {
 			isa = PBXGroup;
 			children = (
+				CE42393B2DD4B58200C6B228 /* .gitignore.md */,
 				CEE4DA532DCCEEFD0082AF68 /* InstagramFirebase */,
 				CEE4DA522DCCEEFD0082AF68 /* Products */,
 			);
@@ -56,15 +92,71 @@
 		CEE4DA532DCCEEFD0082AF68 /* InstagramFirebase */ = {
 			isa = PBXGroup;
 			children = (
-				CEE4DA542DCCEEFD0082AF68 /* AppDelegate.swift */,
-				CEE4DA562DCCEEFD0082AF68 /* SceneDelegate.swift */,
-				CEE4DA582DCCEEFD0082AF68 /* ViewController.swift */,
-				CEE4DA5A2DCCEEFD0082AF68 /* Main.storyboard */,
+				CEE4DAC92DD28DFA0082AF68 /* Tabbar */,
+				CEE4DAC62DD0CE410082AF68 /* POST */,
+				CEE4DAC32DD0C9FC0082AF68 /* Ext */,
+				CEE4DABB2DD0927D0082AF68 /* Cells */,
+				CEE4DABA2DCE8D540082AF68 /* App */,
+				CEE4DAB12DCE24040082AF68 /* Views */,
 				CEE4DA5D2DCCEF000082AF68 /* Assets.xcassets */,
 				CEE4DA5F2DCCEF000082AF68 /* LaunchScreen.storyboard */,
 				CEE4DA622DCCEF000082AF68 /* Info.plist */,
+				CEE4DA682DCCF0410082AF68 /* GoogleService-Info.plist */,
 			);
 			path = InstagramFirebase;
+			sourceTree = "<group>";
+		};
+		CEE4DAB12DCE24040082AF68 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CEE4DA582DCCEEFD0082AF68 /* LoginViewController.swift */,
+				CEE4DAB22DCE24220082AF68 /* RegisterViewController.swift */,
+				CEE4DAB42DCE26770082AF68 /* FeedViewController.swift */,
+				CEE4DAB62DCE26A40082AF68 /* UploadViewController.swift */,
+				CEE4DAB82DCE26D20082AF68 /* SettingsViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CEE4DABA2DCE8D540082AF68 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				CEE4DA542DCCEEFD0082AF68 /* AppDelegate.swift */,
+				CEE4DA562DCCEEFD0082AF68 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		CEE4DABB2DD0927D0082AF68 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				CEE4DABC2DD092960082AF68 /* ReelPostCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		CEE4DAC32DD0C9FC0082AF68 /* Ext */ = {
+			isa = PBXGroup;
+			children = (
+				CEE4DAC42DD0CA1C0082AF68 /* Methods+ext.swift */,
+			);
+			path = Ext;
+			sourceTree = "<group>";
+		};
+		CEE4DAC62DD0CE410082AF68 /* POST */ = {
+			isa = PBXGroup;
+			children = (
+				CEE4DAC72DD0CE560082AF68 /* Post.swift */,
+			);
+			path = POST;
+			sourceTree = "<group>";
+		};
+		CEE4DAC92DD28DFA0082AF68 /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				CEE4DACA2DD28E100082AF68 /* MainTabBarController.swift */,
+			);
+			path = Tabbar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +175,17 @@
 			dependencies = (
 			);
 			name = InstagramFirebase;
+			packageProductDependencies = (
+				CEE4DA6B2DCCF11A0082AF68 /* FirebaseAnalytics */,
+				CEE4DA6D2DCCF11A0082AF68 /* FirebaseAuth */,
+				CEE4DA6F2DCCF11A0082AF68 /* FirebaseFirestore */,
+				CEE4DA712DCCF11A0082AF68 /* FirebaseStorage */,
+				CEE4DA732DCCF11A0082AF68 /* FirebaseVertexAI-Preview */,
+				CEE4DAAD2DCE225E0082AF68 /* SnapKit */,
+				CEE4DAAF2DCE225E0082AF68 /* SnapKit-Dynamic */,
+				CEE4DABF2DD09F6B0082AF68 /* SDWebImage */,
+				CEE4DAC12DD09F6B0082AF68 /* SDWebImageMapKit */,
+			);
 			productName = InstagramFirebase;
 			productReference = CEE4DA512DCCEEFD0082AF68 /* InstagramFirebase.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +214,11 @@
 				Base,
 			);
 			mainGroup = CEE4DA482DCCEEFD0082AF68;
+			packageReferences = (
+				CEE4DA6A2DCCF11A0082AF68 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				CEE4DAAC2DCE225D0082AF68 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				CEE4DABE2DD09F6B0082AF68 /* XCRemoteSwiftPackageReference "SDWebImage" */,
+			);
 			productRefGroup = CEE4DA522DCCEEFD0082AF68 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,8 +234,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEE4DA612DCCEF000082AF68 /* LaunchScreen.storyboard in Resources */,
+				CEE4DA692DCCF0410082AF68 /* GoogleService-Info.plist in Resources */,
 				CEE4DA5E2DCCEF000082AF68 /* Assets.xcassets in Resources */,
-				CEE4DA5C2DCCEEFD0082AF68 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +246,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEE4DA592DCCEEFD0082AF68 /* ViewController.swift in Sources */,
+				CEE4DA592DCCEEFD0082AF68 /* LoginViewController.swift in Sources */,
+				CEE4DAB72DCE26A40082AF68 /* UploadViewController.swift in Sources */,
+				CEE4DACB2DD28E100082AF68 /* MainTabBarController.swift in Sources */,
+				CEE4DAB92DCE26D30082AF68 /* SettingsViewController.swift in Sources */,
+				CEE4DABD2DD092960082AF68 /* ReelPostCell.swift in Sources */,
 				CEE4DA552DCCEEFD0082AF68 /* AppDelegate.swift in Sources */,
+				CEE4DAC52DD0CA1C0082AF68 /* Methods+ext.swift in Sources */,
+				CEE4DAB52DCE26770082AF68 /* FeedViewController.swift in Sources */,
 				CEE4DA572DCCEEFD0082AF68 /* SceneDelegate.swift in Sources */,
+				CEE4DAB32DCE24220082AF68 /* RegisterViewController.swift in Sources */,
+				CEE4DAC82DD0CE560082AF68 /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		CEE4DA5A2DCCEEFD0082AF68 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CEE4DA5B2DCCEEFD0082AF68 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CEE4DA5F2DCCEF000082AF68 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -296,7 +404,6 @@
 				INFOPLIST_FILE = InstagramFirebase/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -323,7 +430,6 @@
 				INFOPLIST_FILE = InstagramFirebase/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -361,6 +467,81 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CEE4DA6A2DCCF11A0082AF68 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.12.0;
+			};
+		};
+		CEE4DAAC2DCE225D0082AF68 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+		CEE4DABE2DD09F6B0082AF68 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.21.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CEE4DA6B2DCCF11A0082AF68 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CEE4DA6A2DCCF11A0082AF68 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		CEE4DA6D2DCCF11A0082AF68 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CEE4DA6A2DCCF11A0082AF68 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		CEE4DA6F2DCCF11A0082AF68 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CEE4DA6A2DCCF11A0082AF68 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		CEE4DA712DCCF11A0082AF68 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CEE4DA6A2DCCF11A0082AF68 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		CEE4DA732DCCF11A0082AF68 /* FirebaseVertexAI-Preview */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CEE4DA6A2DCCF11A0082AF68 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseVertexAI-Preview";
+		};
+		CEE4DAAD2DCE225E0082AF68 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CEE4DAAC2DCE225D0082AF68 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		CEE4DAAF2DCE225E0082AF68 /* SnapKit-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CEE4DAAC2DCE225D0082AF68 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = "SnapKit-Dynamic";
+		};
+		CEE4DABF2DD09F6B0082AF68 /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CEE4DABE2DD09F6B0082AF68 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+		CEE4DAC12DD09F6B0082AF68 /* SDWebImageMapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CEE4DABE2DD09F6B0082AF68 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImageMapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CEE4DA492DCCEEFD0082AF68 /* Project object */;
 }
