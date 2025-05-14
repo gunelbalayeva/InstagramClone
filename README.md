@@ -1,4 +1,4 @@
-# 📸 InstagramClone (Firebase ilə)
+#  Instagram Clone (Firebase ilə)
 
 Bu layihə Swift dilində hazırlanmış sadə bir **Instagram klonudur**. Layihə vasitəsilə istifadəçilər qeydiyyatdan keçə, şəkil paylaşa və digər istifadəçilərin paylaşımlarını **like** edə bilirlər. Layihədə **Firebase** texnologiyalarından və populyar Swift kitabxanalarından istifadə olunmuşdur.
 
